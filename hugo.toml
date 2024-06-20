@@ -1,0 +1,4 @@
+baseURL = 'https://mixolydianmel.github.io/'
+languageCode = 'en-us'
+title = "Melody's Musings"
+theme = 'hugo-tufte'
