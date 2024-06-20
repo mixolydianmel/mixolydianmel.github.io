@@ -1,81 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Melody Henrich</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Melody Henrich</title>
     <link href="css/style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> 
-    <script src="js/index.js"></script>
   </head>
   <body>
-    <div class="outer">
-      <div id="info" class="vertical container shrink">
-        <div class="panel" id="name">
-          <h1>Melody Henrich.</h1>
-          <i class="faded-text">She/Her</i>
-        </div>
-        <div class="panel expand" id="about">
-          <p>
-            I'm a student at Northeastern University in Boston, MA studying Computer Science and Game Development with a focus on graphics programming.
-            I enjoy producing music, studying linguistics, and learning more about our world.
-            I do a lot of projects, and sometimes I finish them.
-          </p>
-        </div>
-        <div class="panel" id="contact">
-          <h2>Contact Me</h2>
-          <ul>
-            <li><span>󰇮</span> mixolydianmel [at] proton [dot] me</li>
-            <li><span>󰙯</span> mixolydianmel</li>
-          </ul>
-        </div>
-        <div class="panel" id="socials">
-          <h2>Socials</h2>
-          <ul>
-            <li><span id="ul-icon">󰓀</span><a href="https://soundcloud.com/mxlydn">Soundcloud</a></li>
-            <li><span id="ul-icon">󰋾</span><a href="https://www.instagram.com/mixolydianmel?igsh=NGVhN2U2NjQ0Yg==">Instagram</a></li>
-            <li><span id="ul-icon">󰌻</span><a href="https://www.linkedin.com/in/mixolydianmel/">LinkedIn</a></li>
-            <li><span id="ul-icon">󰋩</span><a href="https://www.shadertoy.com/user/medley">Shadertoy</a></li>
-            <li><span id="ul-icon"></span><a href="https://mixolydianmelody.itch.io/">Itch.io</a></li>
-            <li><span id="ul-icon">󰊟</span><a href="https://en.pronouns.page/@Mixolydian">Pronouns.page</a></li>
-          </ul>
-        </div>
+    <div class="content">
+      <div class="col-1 title magenta">
+        <h1>Melody Henrich</h1>
+        <h3 class="subtitle">She/Her</h3>
       </div>
-      <div id="showcase" class="vertical container expand">
-        <!-- div class="panel expand" id="locale">
-          locale
-        </div -->
-        <div class="horizontal container expand">
-          <div class="vertical container expand">
-            <div class="panel expand vertical" id="projects">
-              <h2>Projects</h2>
-              <h3>Latest Music</h3>
-              <iframe height="166" scrolling="no"
-                frameborder="no" allow="autoplay"
-                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1691746893&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-              </iframe>
-              <h3>Latest Software</h3>
-              <div class="horizontal container" id="latest-software">
-                <span id="software-icon">󱎓</span>
-                <a href="https://github.com/mixolydianmel/Game-from-Scratch">Game from Scratch</a></span>
-              </div>
-            </div>
-            <div class="panel expand vertical" id="blog">
-              <h2>Blog posts</h2>
-                Coming Soon!
-            </div>
-          </div>
-          <div class="panel" id="shader">
-            <h2>Latest Shader</h2>
-            <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/csdfR8?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="panel" id="friends">
-          <i>TBA</i>
-        </div>
+      <div class="col-1 bio">
+        <h2 class="orange">Bio</h2>
+        <p>
+        Hi! I'm Melody, a student pursuing a BS in Computer Science and Game
+        Development at Northeastern University. Within CS+GAME, I focus on
+        graphics programming and game engine development. I also produce music,
+        study linguistics, and have a (maybe) unhealthy obsession with document
+        markup. I do a lot of projects, and sometimes I finish them.
+        </p>
       </div>
+    </div>
+    <div class="end">
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/mixolydianmel" class="social linkedin">LinkedIn</a>
+        <a href="https://en.pronouns.page/@Mixolydian" class="social pronouns">Pronouns.page</a>
+        <a href="https://github.com/mixolydianmel" class="social github">Github</a>
+        <a href="https://www.shadertoy.com/user/medley" class="social shadertoy">Shadertoy</a>
+        <a href="https://mixolydianmelody.itch.io/" class="social itch">Itch.io</a>
+        <a href="https://soundcloud.com/mxlydn" class="social soundcloud">Soundcloud</a>
+        <a href="http://ko-fi.com/mixolydian" class="social kofi">Ko-Fi</a>
+      </div>
+      <footer>
+        Made with <span class="red">󰋑 </span> by Melody
+      </footer>
     </div>
   </body>
 </html>
