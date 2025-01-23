@@ -1,133 +1,17 @@
-/*
-colors = {
-  primary = {
-    background = "#1e2127";
-    foreground = "#abb2bf";
-  };
-  normal = {
-    black = "#5c6370";
-    red = "#e06c75";
-    green = "#98c379";
-    yellow = "#e5c07b";
-    blue = "#61afef";
-    magenta = "#c678dd";
-    cyan = "#56b6c2";
-    white = "#abb2bf";
-  };
-  bright = {
-    black = "#5c6370";
-    red = "#e06c75";
-    green = "#98c379";
-    yellow = "#e5c07b";
-    blue = "#61afef";
-    magenta = "#c678dd";
-    cyan = "#56b6c2";
-    white = "#ffffff";
-  };
-};
-*/
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-Regular.ttf') format('ttf');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-Bold.ttf') format('ttf');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-BoldItalic.ttf') format('ttf');
-  font-weight: 700;
-  font-style: italic;
-}
-
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-ExtraLight.ttf') format('ttf');
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-ExtraLightItalic.ttf') format('ttf');
-  font-weight: 200;
-  font-style: italic;
-}
-
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-Italic.ttf') format('ttf');
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-Light.ttf') format('ttf');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-LightItalic.ttf') format('ttf');
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-Medium.ttf') format('ttf');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-MediumItalic.ttf') format('ttf');
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-SemiBold.ttf') format('ttf');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-SemiBoldItalic.ttf') format('ttf');
-  font-weight: 600;
-  font-style: italic;
-}
-
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-Thin.ttf') format('ttf');
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-family {
-  font-family: 'BlexMono Nerd Font';
-  src: url('../font/blexmono/BlexMonoNerdFont-ThinItalic.ttf') format('ttf');
-  font-weight: 100;
-  font-style: italic;
-}
-
 :root {
-  background-color: #1e2127;
-  color: #abb2bf;
-  font-family: 'BlexMono Nerd Font';
+  --night: #111111ff;
+  --eerie-black: #1b1b1bff;
+  --jet: #343434ff;
+  --gray: #7a7a7aff;
+  --silver: #c0c0c0ff;
+  --platinum: #dcdcdcff;
+  --red-ncs: #c40234ff;
+  --cardinal: #cf173cff;
+  --crimson: #dc143cff;
+  --tufts-blue: #3e8edeff;
+
+  background-color: var(--night);
+  color: var(--platinum);
   font-size: 1rem;
   padding: 0;
   margin: 0;
@@ -140,6 +24,7 @@ html {
   height: 100%;
   padding: 0;
   margin: 0;
+  font-optical-sizing: auto;
 }
 
 body {
@@ -150,37 +35,48 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  font-family: "Aileron", sans-serif, "BlexMono Nerd Font";
+  font-size: 18pt;
 }
 
-.red {
-  color: #e06c75;
+h1 {
+  font-family: 'Creato Display';
+  font-weight: bold;
+  font-size: 42pt;
+  color: var(--crimson);
 }
 
-.magenta {
-  color: #c678dd;
+h2 {
+  font-family: 'Creato Display';
+  font-weight: regular;
+  font-size: 36pt;
+  color: var(--cardinal);
 }
 
-.orange {
-  color: #d19a66;
+h3 {
+  font-family: 'Creato Display';
+  font-weight: 300;
+  font-size: 24pt;
+  color: var(--red-ncs);
 }
 
 div.content {
   padding: 1rem;
+  width: 50%;
+  align-self: center;
 }
 
-div.title {
+div#title {
   text-align: center;
 }
 
-h3.subtitle {
-  color: #5c6370;
+h3#subtitle {
+  color: var(--gray);
   font-style: italic;
-  font-weight: normal;
-  font-size: 1rem;
 }
 
 a {
-  color: #61afef;
+  color: var(--tufts-blue);
   text-decoration: none;
 }
 
@@ -191,34 +87,35 @@ a.social {
 
 a:before {
   box-sizing: inherit;
+  padding-right: 0.75rem;
 }
 
 a.linkedin::before {
-  content: '󰌻 ';
+  content: '󰌻';
 }
 
 a.pronouns::before {
-  content: '󰊟 ';
+  content: '󰊟';
 }
 
 a.github::before {
-  content: ' ';
+  content: '';
 }
 
 a.shadertoy::before {
-  content: '󰥶 ';
+  content: '󰥶';
 }
 
 a.itch::before {
-  content: ' ';
+  content: '';
 }
 
 a.soundcloud::before {
-  content: '󰓀 ';
+  content: '󰓀';
 }
 
 a.kofi::before {
-  content: ' ';
+  content: '';
 }
 
 div.socials {

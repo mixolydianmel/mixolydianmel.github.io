@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'BlexMono Nerd Font';
+  src: url('../static/font/blexmono/BlexMonoNerdFont-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BlexMono Nerd Font';
+  src: url('../static/font/blexmono/BlexMonoNerdFont-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BlexMono Nerd Font';
+  src: url('../static/font/blexmono/BlexMonoNerdFont-BoldItalic.ttf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BlexMono Nerd Font';
+  src: url('../static/font/blexmono/BlexMonoNerdFont-ExtraLight.ttf');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BlexMono Nerd Font';
+  src: url('../static/font/blexmono/BlexMonoNerdFont-ExtraLightItalic.ttf');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BlexMono Nerd Font';
+  src: url('../static/font/blexmono/BlexMonoNerdFont-Italic.ttf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BlexMono Nerd Font';
+  src: url('../static/font/blexmono/BlexMonoNerdFont-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BlexMono Nerd Font';
+  src: url('../static/font/blexmono/BlexMonoNerdFont-LightItalic.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BlexMono Nerd Font';
+  src: url('../static/font/blexmono/BlexMonoNerdFont-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BlexMono Nerd Font';
+  src: url('../static/font/blexmono/BlexMonoNerdFont-MediumItalic.ttf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BlexMono Nerd Font';
+  src: url('../static/font/blexmono/BlexMonoNerdFont-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BlexMono Nerd Font';
+  src: url('../static/font/blexmono/BlexMonoNerdFont-SemiBoldItalic.ttf');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'BlexMono Nerd Font';
+  src: url('../static/font/blexmono/BlexMonoNerdFont-Thin.ttf');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-Regular.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-RegularItalic.otf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-Black.otf');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-BlackItalic.otf');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-Bold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-BoldItalic.otf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-ExtraBold.otf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-ExtraBoldItalic.otf');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-Light.otf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-LightItalic.otf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-Medium.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-MediumItalic.otf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-Thin.otf');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Creato Display';
+  src: url('../static/font/creato-display/CreatoDisplay-ThinItalic.otf');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('../static/font/aileron/Aileron-Regular.otf');
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('../static/font/aileron/Aileron-Italic.otf');
+  font-weight: 400;
+  font-style: italic
+}
+
+@font-face {
+  font-family: 'Chakobsa';
+  src: url('../static/font/chakobsa/Chakobsa.ttf');
+}
