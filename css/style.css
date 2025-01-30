@@ -88,6 +88,7 @@ a.social {
 a:before {
   box-sizing: inherit;
   padding-right: 0.75rem;
+  font-family: 'BlexMono Nerd Font';
 }
 
 a.linkedin::before {
@@ -133,4 +134,8 @@ div.end {
   align-items: center;
   padding: 1rem 1.5rem;
   gap: 0.5rem;
+}
+
+.project-icon {
+  padding-right: 0.5rem;
 }
