@@ -205,3 +205,52 @@
   font-family: 'Chakobsa';
   src: url('../static/font/chakobsa/Chakobsa.ttf');
 }
+
+@font-face {
+  font-family: 'Exodus Regular';
+  src: url('../static/font/exodus/ExodusDemo-Regular.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exodus Stencil';
+  src: url('../static/font/exodus/ExodusDemo-Stencil.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exodus Striped';
+  src: url('../static/font/exodus/ExodusDemo-Striped.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exodus Sharpen';
+  src: url('../static/font/exodus/ExodusDemo-Sharpen.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exodus Shino';
+  src: url('../static/font/exodus/ExodusDemo-Shino.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bespoke Serif Variable';
+  src: url('../static/font/bespoke-serif/BespokeSerif-Variable.woff2');
+  font-weight: 300 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bespoke Serif Variable';
+  src: url('../static/font/bespoke-serif/BespokeSerif-VariableItalic.woff2');
+  font-weight: 300 800;
+  font-style: italic;
+}
