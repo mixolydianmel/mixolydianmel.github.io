@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Noto+Color+Emoji&display=swap");
+
+:root {
+  --rp-base: #191724;
+  --rp-surface: #1f1d2e;
+  --rp-overlay: #26233a;
+  --rp-muted: #6e6a86;
+  --rp-subtle: #908caa;
+  --rp-text: #e0def4;
+  --rp-love: #eb6f92;
+  --rp-gold: #f6c177;
+  --rp-rose: #ebbcba;
+  --rp-pine: #31748f;
+  --rp-foam: #9ccfd8;
+  --rp-iris: #c4a7e7;
+  --rp-hl-low: #21202e;
+  --rp-hl-med: #403d52;
+  --rp-hl-high: #524f67;
+
+  --font-sans: "Geist", sans-serif, "Noto Color Emoji";
+  --font-serif: serif, "Noto Color Emoji";
+
+  /* utopia.fyi/type/calculator */
+  --step--2: clamp(0.7813rem, 0.7736rem + 0.0341vw, 0.8rem);
+  --step--1: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  --step-0: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);
+  --step-1: clamp(1.35rem, 1.2631rem + 0.3864vw, 1.5625rem);
+  --step-2: clamp(1.62rem, 1.4837rem + 0.6057vw, 1.9531rem);
+  --step-3: clamp(1.944rem, 1.7405rem + 0.9044vw, 2.4414rem);
+  --step-4: clamp(2.3328rem, 2.0387rem + 1.3072vw, 3.0518rem);
+  --step-5: clamp(2.7994rem, 2.384rem + 1.8461vw, 3.8147rem);
+
+  /* utopia.fyi/space/calculator */
+  --space-3xs: clamp(0.3125rem, 0.3125rem + 0vw, 0.3125rem);
+  --space-2xs: clamp(0.5625rem, 0.5369rem + 0.1136vw, 0.625rem);
+  --space-xs: clamp(0.875rem, 0.8494rem + 0.1136vw, 0.9375rem);
+  --space-s: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);
+  --space-m: clamp(1.6875rem, 1.6108rem + 0.3409vw, 1.875rem);
+  --space-l: clamp(2.25rem, 2.1477rem + 0.4545vw, 2.5rem);
+  --space-xl: clamp(3.375rem, 3.2216rem + 0.6818vw, 3.75rem);
+  --space-2xl: clamp(4.5rem, 4.2955rem + 0.9091vw, 5rem);
+  --space-3xl: clamp(6.75rem, 6.4432rem + 1.3636vw, 7.5rem);
+
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.3125rem, 0.1847rem + 0.5682vw, 0.625rem);
+  --space-2xs-xs: clamp(0.5625rem, 0.4091rem + 0.6818vw, 0.9375rem);
+  --space-xs-s: clamp(0.875rem, 0.7216rem + 0.6818vw, 1.25rem);
+  --space-s-m: clamp(1.125rem, 0.8182rem + 1.3636vw, 1.875rem);
+  --space-m-l: clamp(1.6875rem, 1.3551rem + 1.4773vw, 2.5rem);
+  --space-l-xl: clamp(2.25rem, 1.6364rem + 2.7273vw, 3.75rem);
+  --space-xl-2xl: clamp(3.375rem, 2.7102rem + 2.9545vw, 5rem);
+  --space-2xl-3xl: clamp(4.5rem, 3.2727rem + 5.4545vw, 7.5rem);
+
+  /* Custom pairs */
+  --space-s-l: clamp(1.125rem, 0.5625rem + 2.5vw, 2.5rem);
+}
+
+html {
+  background: var(--rp-base);
+  color: var(--rp-text);
+
+  font-family: var(--font-sans);
+  font-size: var(--step-0);
+
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  min-width: 360px;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: calc(var(--space-3xs) / 2);
+  background-color: var(--rp-overlay);
+
+  height: 100%;
+}
+
+@media (max-width: 512px) or (orientation: portrait) {
+  main {
+    flex-direction: column;
+  }
+}
+
+a {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  background-color: var(--rp-base);
+
+  position: relative;
+  isolation: isolate;
+}
+
+a:hover {
+  background-color: var(--rp-hl-low);
+  transition: background-color 0.5s;
+}
+
+.wip {
+  overflow: hidden;
+  text-wrap: nowrap;
+}
+
+.wip:hover {
+  background-color: var(--rp-base);
+}
+
+.wip::before {
+  content: "WORK IN PROGRESS WORK IN PROGRESS WORK IN PROGRESS WORK IN PROGRESS";
+
+  position: absolute;
+  top: 50%;
+  left: -40%;
+  width: 200%;
+
+  overflow: visible;
+
+  color: var(--rp-base);
+  background-color: var(--rp-gold);
+
+  z-index: 1;
+
+  text-align: center;
+  font-size: var(--step-0);
+  font-weight: 500;
+
+  transform: rotate(-50deg);
+}
+
+.wip::after {
+  content: "WORK IN PROGRESS WORK IN PROGRESS WORK IN PROGRESS WORK IN PROGRESS";
+
+  position: absolute;
+  top: 60%;
+  left: -50%;
+  width: 200%;
+
+  overflow: visible;
+
+  color: var(--rp-base);
+  background-color: color-mix(in lab, var(--rp-gold), var(--rp-base) 25%);
+
+  z-index: 0;
+
+  text-align: center;
+  font-size: var(--step-0);
+  font-weight: 500;
+
+  transform: rotate(30deg);
+}
