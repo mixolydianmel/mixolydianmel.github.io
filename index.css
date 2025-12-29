@@ -110,6 +110,7 @@ a:hover {
 
 .wip {
   overflow: hidden;
+  text-wrap: nowrap;
 }
 
 .wip:hover {
@@ -124,6 +125,8 @@ a:hover {
   left: -40%;
   width: 200%;
 
+  overflow: visible;
+
   color: var(--rp-base);
   background-color: var(--rp-gold);
 
@@ -133,7 +136,7 @@ a:hover {
   font-size: var(--step-0);
   font-weight: 500;
 
-  transform: rotate(-60deg);
+  transform: rotate(-50deg);
 }
 
 .wip::after {
@@ -143,6 +146,8 @@ a:hover {
   top: 60%;
   left: -50%;
   width: 200%;
+
+  overflow: visible;
 
   color: var(--rp-base);
   background-color: color-mix(in lab, var(--rp-gold), var(--rp-base) 25%);
