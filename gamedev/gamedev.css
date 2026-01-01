@@ -252,6 +252,12 @@ a {
   display: inline-block;
 }
 
+p#email {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 footer {
   margin: var(--space-l-xl) 0;
   text-align: center;
