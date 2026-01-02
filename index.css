@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Noto+Color+Emoji&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900");
+@font-face {
+  font-family: "Twitter Color Emoji";
+  src: urls("/assets/TwitterColorEmoji-SVGinOT.ttf") format("ttf");
+}
 
 :root {
   --rp-base: #191724;
@@ -17,8 +21,8 @@
   --rp-hl-med: #403d52;
   --rp-hl-high: #524f67;
 
-  --font-sans: "Geist", sans-serif, "Noto Color Emoji";
-  --font-serif: serif, "Noto Color Emoji";
+  --font-sans: "Geist", sans-serif, "Twitter Color Emoji";
+  --font-serif: serif, "Twitter Color Emoji";
 
   /* utopia.fyi/type/calculator */
   --step--2: clamp(0.7813rem, 0.7736rem + 0.0341vw, 0.8rem);
